@@ -1,0 +1,2105 @@
+{
+  "author": "Tu Tran",
+  "results": [
+    {
+      "conversation_id": 1,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent confirmed the order is shipped and in transit with delivery within two business days, but never explained why the shipping confirmation email with tracking number hadn't arrived and gave no tracking number or specific delivery window, leaving the customer to guess."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the order status; they did not resend the shipping confirmation email, provide the tracking number, or fix the missing email, though the customer mainly needed information."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent told the customer to be available for delivery and to contact them with questions, and gave a two-business-day timeframe, but offered no way to track the package, no notification method, and no fallback if it doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 2,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent confirmed the package is out for delivery and expected by end of day, but the cause was vague ('unforeseen circumstances'), and no remedy was offered for the express shipping fee or the event tomorrow."
+        },
+        {
+          "criterion": "Action",
+          "score": 1,
+          "reason": "The agent only looked up the order and checked with shipping; no action like a refund of express fees, expedite, or reship was taken, and the customer is left to wait and call back."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "There is a timeframe (end of day today) and a fallback of 'let us know' with vague 'appropriate action', but no notification or tracking method was given and the fallback is not concrete."
+        }
+      ]
+    },
+    {
+      "conversation_id": 3,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent gave the eligibility status, return address, and a 3-5 business day dispatch timeline after receipt, but never said how the Rs. 500 coupon would be delivered or when, and gave no return-by deadline or reimbursement details, leaving the customer to guess some important details."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent initiated the return and exchange process on the call and gave instructions, but the customer is left to ship the camera at their own cost, and the agent never confirmed that the coupon was issued or sent, so a step was left undone."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a timeframe (3-5 business days after receipt) and said an SMS and email with tracking would follow dispatch, but gave no fallback if the replacement is not dispatched or the return is lost, and no timeline for the coupon."
+        }
+      ]
+    },
+    {
+      "conversation_id": 4,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent confirmed warranty status and a replacement with shipping in 3-5 business days and no return of the old kettle, but never gave a cause for the slow heating or an order/replacement reference, and 'ships within 3-5 days' leaves the delivery date unclear."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent checked the order, initiated the replacement, and confirmed the shipping address on the call, leaving the customer with no steps (no return needed), though the agent never explicitly confirmed the replacement order was successfully placed."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent gave a timeframe (ships within 3-5 business days) but did not say how the customer would be notified (tracking email, etc.) or what to do if it doesn't ship, only a generic invitation to contact again."
+        }
+      ]
+    },
+    {
+      "conversation_id": 5,
+      "overall": 4.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent explained the registration process (create account, enter model, purchase date), what the warranty covers, and the one-year period, but did not give the website address or say what the 'other necessary details' are, such as the order number."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent gave correct guidance on registration and warranty; registration must be done by the customer on the website, so there was nothing more for the agent to do on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "The customer was told to register online and to contact 24/7 support if issues arise, which gives a fallback, and nothing else is pending, so no wrong or contradictory answer was given."
+        }
+      ]
+    },
+    {
+      "conversation_id": 6,
+      "overall": 3.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent explained the return process, the shipping label email, the 5-7 business day timeline, and packaging requirements, but never said whether the replacement is guaranteed or addressed the cause (a defective lens) or whether the replacement ships before or after the return is received, so the customer still has to guess some details."
+        },
+        {
+          "criterion": "Action",
+          "score": 1,
+          "reason": "The agent only looked up nothing and told the customer to log in and initiate the return themselves, though the agent had the order number and could have started the return on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a timeframe (5-7 business days) and said emails would arrive with the label and tracking details, but gave no fallback if the email or replacement does not arrive, and the timeframe for the label email is not stated."
+        }
+      ]
+    },
+    {
+      "conversation_id": 7,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent explained the return process, the $5.99 fee and the policy reason, but never gave the discount code's value or terms, whether the fee is deducted from the refund, or how long the refund takes, so Lisa still has to guess important details."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent said they would send the return label email and offered a discount code, but did not confirm the email was sent or that the code was issued, and left printing and mailing to Lisa; the return was not initiated and confirmed on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent said the refund would be processed once the headphone is received, but gave no timeframe for the email, the refund, or the discount code, no way to track it, and no fallback if something fails."
+        }
+      ]
+    },
+    {
+      "conversation_id": 8,
+      "overall": 4.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 5,
+          "reason": "The agent fully answered the loyalty question: 200 points earned, credited within 24 hours of delivery, $10 off per 100 points ($20 total), usable on any product except gift cards, and valid for six months from purchase."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, there was nothing further the agent could do on the call, and the agent looked up the order and gave correct details."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing is pending apart from the automatic points credit within 24 hours of delivery, which the agent stated, and the agent's answers were not wrong or contradictory."
+        }
+      ]
+    },
+    {
+      "conversation_id": 9,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent confirmed 50 points earned and explained redemption at checkout, but said points post within 24 hours of an August 1st purchase without saying whether they are already in the account, and the claim that 1 point equals $1 (so 50 points is a $50 discount) is implausible and may be wrong, which leaves the customer guessing about the actual value."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent looked up the account and purchase and gave an answer, though the redemption value appears questionable and the agent did not verify the current points balance."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "Nothing is pending after the call, but the agent's answer about redemption value is questionable and the agent did not clarify whether the points had actually posted, so the answer may be wrong or leave ambiguity."
+        }
+      ]
+    },
+    {
+      "conversation_id": 10,
+      "overall": 4.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent confirmed the exchange was initiated, a team call within 24 hours, an email, and delivery of the new printer within two business days, but never clarified whether the pickup of the old printer happens before or after the new one arrives, or how the packaging will be provided, so the customer must guess some details."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent initiated the return/exchange and got expedited shipping approved on the call, but the pickup scheduling was left to a later callback and no confirmation or order number was given, so the customer still waits on a team contact for scheduling."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a 24-hour timeframe for contact, an email notification, and a two-business-day delivery, but offered no fallback if the team doesn't call or the printer doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 11,
+      "overall": 4.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent explained the status (attempted delivery, no one available, partner couldn't reach the customer) and gave a concrete remedy (new slot tomorrow 10am-12pm), but didn't address the customer's claim that no one showed up or that there was no contact, leaving a minor gap."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent checked slots and actually scheduled the redelivery on the call, completing the main action, though it didn't verify the booking was confirmed in the system and only promised an email afterward."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a timeframe (tomorrow 10am-12pm) and said a confirmation email would arrive shortly, but gave no fallback if the delivery fails or the email doesn't arrive, and didn't tell the customer to be available or how to track it."
+        }
+      ]
+    },
+    {
+      "conversation_id": 12,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent said the password was reset to \"BrownBox123\" and to change it as soon as possible, but then told the customer \"No, that's all\" when asked if anything else was needed, which contradicts the earlier instruction."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent verified the account and reset the password on the call, and the customer confirmed a successful login, but the customer was left with a weak, generic password to change themselves."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The only next step was to change the password \"as soon as possible\" with no concrete timeframe or fallback, and the agent then undercut it by saying nothing else was needed."
+        }
+      ]
+    },
+    {
+      "conversation_id": 13,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "Mark said a 10% store credit was added to the account, but he never gave the dollar amount, an expiry, or how to redeem it, and he said 'we don't offer discounts' and then offered what is effectively one, so the customer must still guess important details."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "Mark applied the store credit to the account during the call, as the customer asked, but he did not confirm the balance or show that it posted."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "Nothing is pending after the call and the credit is already applied, but the answer was somewhat inconsistent (no discounts, then a credit), and the customer was not told how to see the credit or what to do if it doesn't appear."
+        }
+      ]
+    },
+    {
+      "conversation_id": 14,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent explained the paperback vs hardcover difference but gave only a speculative 'could be due to different sellers' for the $10.99 vs $12.99 paperback gap, so the cause is a guess and no concrete remedy was offered beyond escalation."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the prices and logged an escalation, without checking which sellers or listings were behind the $10.99 and $12.99 paperbacks, which it could have done on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a timeframe (24-48 hours) and a notification method (email), but no fallback if the customer doesn't hear back."
+        }
+      ]
+    },
+    {
+      "conversation_id": 15,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent explained the order is in transit and cannot be changed directly, and that logistics will try to reach the driver, but gave no clear cause for why the customer's ceiling fan is on a 'pickup' address, no fee amount, and no likelihood or delivery estimate, leaving important details to guesswork."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent checked with shipping and logistics and submitted the request to contact the driver with the new address and phone number, but the outcome is unconfirmed and the agent couldn't confirm the change worked on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent said logistics will attempt contact and the customer will be updated by email or phone, but gave no timeframe ('some time') and no fallback if there's no update or the driver can't redirect."
+        }
+      ]
+    },
+    {
+      "conversation_id": 16,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent identified the cause (a technical glitch) and the remedy (a manual $100 discount with an updated invoice by email), but gave no amount for the new total and no specific time for 'shortly', so Emily still has to guess a few details."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "Rachel verified the order and IMEI and applied the discount manually during the call, but she never confirmed on the call that it took effect or showed the adjusted price, though the invoice is sent automatically."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent said the updated invoice would arrive by email 'shortly', which is a vague timeframe, and gave no fallback if the email doesn't arrive or the discount is missing from it."
+        }
+      ]
+    },
+    {
+      "conversation_id": 17,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent gave the order status (delayed, in transit, due Aug 6) and a remedy (free priority upgrade, delivery within two business days), but the cause was only 'unforeseen circumstances', and no tracking info or current location was given, so the customer has to guess about the details."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent contacted the shipping department and got the upgrade to priority shipping done on the call, but did not confirm in the system that the upgrade took effect or give a confirmation or tracking update."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent gave a two-business-day delivery timeframe but did not say how the customer would be notified or track the package, and gave no fallback if the package doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 18,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent only said there was a 'delay' with no cause, no current location or new delivery date, and no remedy such as a reship or refund, so the customer cannot tell whether the shirt will arrive before the weekend event."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent looked up the order and said it would escalate to the shipping team, but did not offer a reship, refund, or supervisor transfer that might have helped with the weekend deadline."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a 24-hour timeframe for an update and said the customer would be notified by email, but gave no fallback if no update arrives and no guidance on what happens if the shirt misses the event."
+        }
+      ]
+    },
+    {
+      "conversation_id": 19,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The specialist said the account was reactivated and John could log in, which resolves the problem, but the cause of the deactivation was never explained even though John asked why it happened and the agent raised it."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The specialist reactivated the account on the call after verifying identity, but did not confirm that the login worked, though the customer only had to log in and buy."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "Nothing is pending after the call and the account was reactivated, but the specialist gave no fallback if login still failed beyond a generic 'reach out'."
+        }
+      ]
+    },
+    {
+      "conversation_id": 20,
+      "overall": 4.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent confirmed an ongoing 20% exchange offer on the XYZ blender and explained how to claim it at checkout, but did not state conditions such as the old blender's eligibility or condition, or whether the discount depends on the old blender's value, so the customer must guess about that."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent checked the offer and gave correct steps; there was nothing further the agent could do on the call since the customer chose to order online themselves."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing is pending after the call, and the agent gave a fallback for checkout issues (contact support or use the troubleshooting guide), so the customer knows what to do if there is a problem."
+        }
+      ]
+    },
+    {
+      "conversation_id": 21,
+      "overall": 4.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 5,
+          "reason": "The agent answered every question the customer asked (how to register, a two-year warranty period, coverage of manufacturing defects, and the need to keep the original receipt), so the customer leaves with a full and correct answer."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, the agent gave correct information, and there was nothing more the agent could do on the call since registration is done by the customer on the website."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing is pending after the call, the customer knows to register online and keep the receipt, and the agent's answers were neither wrong nor contradictory."
+        }
+      ]
+    },
+    {
+      "conversation_id": 22,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent never diagnosed why the 'Cancel' button was unclickable (the customer seemingly wanted to cancel an order, while the agent assumed a defective watch) and gave no cause, delivery timeframe, or return deadline, so the remedy rests on a misreading/guess."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent said they'd create a replacement order and sent the return label by email, completing the main action on the call, though they never confirmed the replacement order was actually placed and the customer still has to ship the return."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "No timeframe was given for the replacement's arrival, the return deadline, or how the customer will be notified of shipping, and no fallback was offered if the watch doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 23,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent said a return would be initiated and gave the refund timeline of 7-10 business days after receipt, but never explained how to send the T-shirt back (label, drop-off, deadline) or whether a replacement is an option, so the customer must guess the key return step."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent confirmed the address and said the return process was initiated, but it was not clear that a return label was actually generated, and the agent wasted time on an irrelevant troubleshooting guide; the confirmation was deferred to a later email."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a timeframe (confirmation email shortly, refund in 7-10 business days after receipt) and said the customer would be notified by email, but gave no fallback if the email or refund doesn't arrive and no deadline or method for returning the item."
+        }
+      ]
+    },
+    {
+      "conversation_id": 24,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent explained the cause (out of stock, notification glitch) but gave only a vague restock date ('a few days'), so the customer still can't tell when the power bank will arrive, which was her one question."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent looked up the order and applied the requested discount, but did not try to expedite, offer a cancellation/refund or alternative product, or confirm anything about the order itself, which was the main issue."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent said the order will ship when stock arrives and delivery takes 2-3 business days, but gave no firm restock date, no notification method for shipping, and no fallback if the delay continues."
+        }
+      ]
+    },
+    {
+      "conversation_id": 25,
+      "overall": 4.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 5,
+          "reason": "The agent gave the seller's 30-day return window and said the sweatshirt is final sale and not eligible for returns or exchanges, which fully answers the customer's question about the policy."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent looked up the seller's policy and the item's final-sale status and gave correct information, so there was nothing more to do on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing is pending after the call and the agent's answer was neither wrong nor contradictory, so no next step was needed."
+        }
+      ]
+    },
+    {
+      "conversation_id": 26,
+      "overall": 1.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent clearly said no refund is possible because opened diapers can't be returned, but the policy is contradictory (the customer says the diaper was opened to test fit, yet the agent later refers to 'unopened diapers'), and the agent offered no real remedy beyond a declined discount code and suggestions to donate or sell."
+        },
+        {
+          "criterion": "Action",
+          "score": 1,
+          "reason": "The agent did nothing beyond stating policy: no return, exchange for the right size, or discount code was actually issued, and the customer was told to donate or sell the product themselves."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 1,
+          "reason": "The call ended with no next step, no timeframe, and no follow-up or escalation path, only a generic invitation to contact the company again."
+        }
+      ]
+    },
+    {
+      "conversation_id": 27,
+      "overall": 3.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent confirmed the two-year warranty ($50) was added and stated a total of $150, but never explained how that total was reached or when coverage starts and ends, and did not say how the $50 would be charged, so the customer has to guess about payment and coverage dates."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent generated the warranty and added it to the order on the call and confirmed it was added, so the main action was completed, though payment handling was not confirmed and the email was only promised."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent said an email with order details and warranty information would be sent but gave no timeframe and no fallback if it did not arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 28,
+      "overall": 4.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent explained the charge as a $10.99 remote-location shipping fee and said it can't be waived, but it left unclear whether the free-shipping-over-$50 offer would also cover the remote surcharge."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent verified the order and gave a correct explanation and amount, so there was nothing more to do on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing was pending after the call, the customer confirmed they understood, and the agent's answer was not clearly wrong or contradictory."
+        }
+      ]
+    },
+    {
+      "conversation_id": 29,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent gave a delivery date (Wednesday next week) and explained that faster options are unavailable and the order is in transit, but never gave a real cause for the missing option, did not address the customer's complaint about paying extra, and gave no details on how to redeem the $20 discount (code, expiry, terms)."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up order details and the delivery estimate and offered a goodwill discount verbally, without confirming it was applied to the account or issued as a code, so the customer is left to figure out redemption."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The only pending item is delivery on Wednesday next week and the discount, but the agent gave no tracking or notification info, no way to redeem the discount, and no fallback if the package is late."
+        }
+      ]
+    },
+    {
+      "conversation_id": 30,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent confirmed the package went to a different address but gave no cause, no wrong-address detail, no timeframe, and only a vague 'working on locating it' with no concrete remedy such as a replacement or refund."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the order and contacted the shipping department; they did not offer a reship, replacement, or refund despite the customer's urgent business need."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent said they would personally monitor and keep the customer updated, but gave no timeframe, no notification method, and no fallback if the package isn't found."
+        }
+      ]
+    },
+    {
+      "conversation_id": 31,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent said returns are refused for 'used' watches and treated setting the time as use, which contradicts a dead-on-arrival defect; the policy reasoning is dubious and no clear remedy was given beyond a repair/replacement the customer declined."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only logged an escalation to a supervisor and offered to start a repair/replacement; no refund or return action was taken when the agent could have initiated a defective-item return or RMA."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent gave a 24-hour timeframe and collected email and phone, so the customer knows they will be contacted, but it is unclear which channel will be used and there is no fallback if the supervisor doesn't respond."
+        }
+      ]
+    },
+    {
+      "conversation_id": 32,
+      "overall": 3.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent gave a status (shipped five days ago, delayed in transit) and a concrete remedy (cancel and reorder with expedited shipping, arriving tomorrow afternoon), but never explained why it was delayed, and the remedy is odd since the original package was also due tomorrow, so the customer is left unsure why the new order is better or whether the original will still show up."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent canceled the original order and placed a new expedited one during the call, completing the main action, but gave no confirmation number, order details, or confirmation that the new order was actually processed."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent gave a delivery timeframe (tomorrow afternoon) but did not say how the customer would be notified or track the new order, and gave no fallback if it doesn't arrive, only a generic invitation to contact them again."
+        }
+      ]
+    },
+    {
+      "conversation_id": 33,
+      "overall": 4.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent identified the block from exceeded attempts and unblocked it, so the customer knows the status and the fix, but the agent never explained how to avoid a repeat lockout or why the cache-clearing advice was given first."
+        },
+        {
+          "criterion": "Action",
+          "score": 5,
+          "reason": "The agent verified identity, unblocked the account on the call, and the customer confirmed they could log in, so the main action was completed and confirmed."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing was left pending after the call and the agent's resolution was correct, though the earlier cache-clearing advice was unnecessary, it did not contradict the final answer."
+        }
+      ]
+    },
+    {
+      "conversation_id": 34,
+      "overall": 4.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent gave a concrete remedy (clear Chrome cache and cookies with exact steps) and the customer confirmed the signup worked, but the agent never explained why the signup failed, and the 'no issue' claim sits oddly beside the fact that the fix was needed."
+        },
+        {
+          "criterion": "Action",
+          "score": 5,
+          "reason": "The agent checked with the technical team, walked the customer through the fix, and stayed on the call until the customer confirmed the signup succeeded, so the issue was resolved and confirmed on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing is pending after the call because the signup was completed and confirmed, and the agent's answer was not wrong or contradictory, though the agent did invite the customer to reach out again."
+        }
+      ]
+    },
+    {
+      "conversation_id": 35,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent said the item was received and the refund initiated, with a 10-14 business day timeline, but blamed the banking system while also saying it takes longer for CoD, and never gave a start date, a refund method or a reference number, so the customer cannot tell when the money will arrive."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the status and told the customer to wait; they did not escalate, flag the urgency or try any alternative, and did not offer a supervisor callback."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent gave a 10-14 business day window and said to contact them again if no refund appears 'within the next few days', which conflicts with that window; there was no tracking method, no notification and no clear fallback."
+        }
+      ]
+    },
+    {
+      "conversation_id": 36,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent confirmed the misdelivery and promised retrieval and redelivery in 2-3 business days, but never explained why it was misdelivered, and then contradicted the timeframe by saying no specific timeframe can be guaranteed, leaving the customer unsure when they will get the blender."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only checked the order status and said they would 'initiate the process' without confirming that a retrieval or redelivery was actually created, and did not try to expedite or offer a replacement or refund."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent gave a 2-3 business day timeframe and said an email would follow, but the email timing was vague ('as soon as possible'), the timeframe was undercut by 'can't guarantee', and there was no fallback if it did not happen."
+        }
+      ]
+    },
+    {
+      "conversation_id": 37,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent gave the balance (500 points, worth Rs. 500) and how to earn more, but contradicted itself by saying Emily can use points for an air cooler and then saying a 1000-point minimum applies, which she doesn't meet, and never clearly said she can't redeem yet or how many more points she needs."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent looked up the balance and answered questions; the customer only needed information, but the information given was contradictory (yes you can use them, but minimum 1000 needed), so it was not fully correct."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "Nothing is pending, but the agent's answer was contradictory about whether the points can be used, so the customer is left unsure what to do next, and no concrete next step such as how much to spend to reach 1000 points was given."
+        }
+      ]
+    },
+    {
+      "conversation_id": 38,
+      "overall": 4.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent gave the CameraPro return policy clearly (30 days, full refund, original condition and packaging, accessories included) and pointed to the product page for warranty details, though it did not say who pays return shipping or how to start a return."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent looked up and supplied the seller's return policy, so there was nothing further the agent could do on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing is pending after the call because the customer only asked a question, and the agent's answer was not wrong or contradictory."
+        }
+      ]
+    },
+    {
+      "conversation_id": 39,
+      "overall": 4.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "Agent confirmed the return is approved, shipping is free, the label was emailed, and a refund follows receipt, but never said how long the refund takes or how it will be issued, and the pickup timing ('up to 5 business days' vs courier contact within 24 hours) is somewhat unclear."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "Agent created and emailed the return label and instructions and scheduled the pickup during the call, leaving only the physical step of packing the item, though no confirmation number or pickup date was given."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The courier will contact Jane within 24 hours and pickup may take up to 5 business days, which gives timeframes and a notification method, but no fallback was offered if the courier doesn't call or the refund doesn't arrive, and no refund timeline was stated."
+        }
+      ]
+    },
+    {
+      "conversation_id": 40,
+      "overall": 4.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 5,
+          "reason": "The agent confirmed the order was successful and gave its status (being processed, shipping within 24 hours), which fully answers the customer's question, though no delivery estimate was given and the customer didn't ask for one."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent looked up the order and gave correct status information; nothing else was needed on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a timeframe (shipping within 24 hours) and said a shipping confirmation email with tracking would arrive, but offered no fallback if the shipment doesn't happen or the email doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 41,
+      "overall": 4.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 5,
+          "reason": "The agent gave the order status (confirmed, being shipped, arriving in 3-5 business days) and the exact backpack dimensions, fully answering both questions, though no cause or remedy was needed."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent looked up and gave correct status and dimensions with nothing more to do on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The only pending item is delivery, with a 3-5 business day timeframe, but the agent did not say how the customer would be notified or tracked, or what to do if it doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 42,
+      "overall": 4.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "Lisa stated the cause (deactivated due to inactivity) and that the account was reactivated and accessible, but never explained how to log in or whether the wristwatch order or any login credentials were affected."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "Lisa verified the customer's details and completed the reactivation on the call, but she did not confirm it worked, such as by having John log in, so the result was only stated."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing was pending after the call and the answer was not contradictory, though the agent only gave a generic invitation to reach out again."
+        }
+      ]
+    },
+    {
+      "conversation_id": 43,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent diagnosed the pendrive as likely defective and said an exchange was initiated, but never said when the replacement ships, whether it ships before or after the return, or what 'shortly' means, so the customer still has to guess."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent said they would initiate the exchange but did not confirm it was created, give an exchange or reference number, or send the label on the call, leaving the label step to another team."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent said the team will 'contact you shortly' with a return label, which gives a vague timeframe, no contact method (email, phone), and no fallback if the contact never comes."
+        }
+      ]
+    },
+    {
+      "conversation_id": 44,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent said the item is eligible for return with a $5.99 fee, but the policy statement contradicts itself (said 'sorry to inform' then eligible), the fee is unexplained, and the return method, label, and refund timing are never given, so the customer must guess key details."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent said they would initiate the return and looked up the troubleshooting guide, but never confirmed the return was created or gave a label or return method, leaving the main action unverified."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The only next step is a confirmation email 'shortly', which is vague on timing, with no instructions on how to ship the item, when the refund comes, or what to do if the email doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 45,
+      "overall": 3.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent explained the return and refund flow (pickup within 24 hours, refund 3-5 business days after warehouse receipt), but never asked about or addressed the damage (photos/inspection), and for CoD said the refund goes to the 'original payment method' while crediting a bank account without asking for bank details, which is self-contradictory and leaves the customer guessing how the refund actually reaches them."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent initiated the return and arranged the pickup on the call, but did not collect bank details for the CoD refund or log the damage claim, leaving steps it could have done."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The courier will call within 24 hours and the refund follows 3-5 business days after receipt, which gives timeframes and who acts, but there is no tracking method or fallback if the courier doesn't call or the refund is late."
+        }
+      ]
+    },
+    {
+      "conversation_id": 46,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent confirmed eligibility and gave a 3-5 business day replacement estimate (starting only after the return is received), but gave no cause, no return shipping or label details, and no timeframe for the escalation, so the customer must guess how long the whole process will take."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the order and logged an escalation, telling the customer to initiate the return themselves in their account when the agent could have started the return or replacement on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The only next step is that senior team members will 'get back to you as soon as possible', with no timeframe, no specified contact channel, and no fallback if no one responds."
+        }
+      ]
+    },
+    {
+      "conversation_id": 47,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent gave a remedy (refund via bank transfer in 7-10 business days, pickup of the cooker), but left out what 'applicable charges' means, and gave no pickup date or window, so the customer still has to guess the actual refund amount and when the pickup happens."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent collected bank details and said they would initiate the refund and arrange a pickup, but never confirmed that the refund or pickup was actually scheduled, and gave no confirmation or reference number, leaving the customer to rely on the agent's word."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent gave a 7-10 business day refund timeframe and told the customer to contact them if issues arise, but gave no pickup timeframe, no way to track the refund or be notified, and no specific fallback if the refund doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 48,
+      "overall": 4.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent confirmed stock, walked through each ordering step, and gave a delivery estimate of two to three business days, though it never confirmed the order actually went through or mentioned delivery scheduling for a large appliance."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed guidance, which the agent gave correctly step by step, and there was nothing else the agent could do on the call besides possibly verifying the order, so the information was correct and sufficient."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent said a confirmation email would arrive shortly and a shipping email with tracking would follow, which gives timeframes and notification, but offered no fallback if the emails or delivery didn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 49,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent contradicted itself: it first said the refund starts after pickup and the product is verified, and the customer said they received the item only yesterday, yet it later reported the return as already received and the refund initiated, with no explanation of how that happened or whether pickup was ever scheduled."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the refund status and explained the policy; it never scheduled a pickup or confirmed a return was arranged, and said it could not expedite anything."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a timeframe of 7-14 business days and said an email confirmation would arrive, but gave no fallback if the refund does not appear, and the status itself was inconsistent."
+        }
+      ]
+    },
+    {
+      "conversation_id": 50,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent gave a concrete remedy (replacement shipped within 24 hours, arriving in 3-5 business days), but never said how or when the faulty camera must be returned, and the earlier 7-10 day timeline tied to receiving the faulty product contradicts the expedited plan, leaving the customer to guess about the return."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent initiated the replacement on the call and the customer has no further steps stated, but there was no confirmation it was processed (no order or replacement number) and no return label or return instructions were handled."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a timeframe (email with shipping and tracking within 24 hours, delivery in 3-5 business days) and a notification method (email with tracking), but offered no fallback if the email doesn't arrive, and only a generic invitation to contact again."
+        }
+      ]
+    },
+    {
+      "conversation_id": 51,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent gave a vague cause ('unforeseen circumstances') and a muddled remedy: refund if not delivered in 24 hours, a new duplicate order, and a final promise of refund 'as soon as possible' that contradicts the conditional refund, leaving the customer unsure whether the original or new watch is coming or when the refund happens."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent looked up tracking and placed a new order with a seller request, but the refund was not initiated, the duplicate order may create a double purchase, and the agent could not do anything to resolve the delay."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "A 24-hour delivery window and a confirmation email were mentioned, but the refund has no firm timeframe ('as soon as possible'), the new order's delivery timing is unclear, and there is no fallback if the delivery fails beyond a vague conditional refund."
+        }
+      ]
+    },
+    {
+      "conversation_id": 52,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent confirmed the return and exchange, pickup within 24 hours, and free return shipping, but never said when the replacement will ship or whether the exchange depends on the pickup, so the customer must guess about the replacement."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent initiated the return/exchange and arranged the pickup on the call, leaving only the physical step of keeping the product ready, though no confirmation number or confirmation of the exchange order was given."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a 24-hour pickup timeframe and said an email with pickup details would follow, but offered no fallback if the pickup doesn't happen and no timeline for the replacement."
+        }
+      ]
+    },
+    {
+      "conversation_id": 53,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent confirmed eligibility and gave the refund timeline (7-10 business days), but the process stays vague: no website steps, no explanation of how a COD order is refunded to an 'original payment method', and no approval timeframe, so the customer must guess key details."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the order and confirmed eligibility, then told the customer to initiate the return on the website themselves, though the agent could have started the return request on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent said the customer would get a confirmation email with shipping instructions after approval, but gave no timeframe for approval, no tracking method, and no fallback if the email or refund doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 54,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent and supervisor clearly said the return was denied because it fell outside the 30-day window and that a warranty replacement was available, but they gave no details of the replacement process, such as whether the phone must be shipped first, the timeline, or any cost, so the customer is left guessing."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The supervisor checked for exceptions and offered a replacement, but only promised to send an email with instructions and did not initiate the replacement, create a case, or confirm anything on the call, leaving the customer to carry out the process."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The only next step was that an email with instructions would be sent, with no timeframe for it to arrive, no replacement timeline, and no fallback if the email doesn't come."
+        }
+      ]
+    },
+    {
+      "conversation_id": 55,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agents identified the $50 extended warranty as the cause of the discrepancy and confirmed the warranty removal and $50 refund, but did not say which account or payment method the refund goes to or whether a revised invoice will be issued."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The billing agent processed the refund on the call and removed the warranty, leaving the customer with no steps, though the first agent could not act and the customer had to repeat their details after the transfer, and there was no confirmation that the refund posted."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The billing agent gave a 3-5 business day timeframe for the credit to the account, but did not say how the customer would be notified or what to do if the refund does not arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 56,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent explained the status (courier failed delivery, package returned to warehouse) and the remedy (reship within 24 hours), but gave no cause for the failed delivery and did not say why the address was wrong or whether the original was incorrect; the compensation answer was also vague."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent updated the address and committed to reship, then transferred the call for compensation, but did not confirm the reship was actually queued or process it on the call, and said it couldn't expedite or compensate."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a 24-hour reship timeframe and email notification with a new tracking number, but offered no fallback if it doesn't ship, and the outcome of the transfer for compensation is left unclear."
+        }
+      ]
+    },
+    {
+      "conversation_id": 57,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent gave a status (in transit, 3-5 business days) and offered a refund and discount, but did not give the cause of the delay or any remedy for the urgency, and the shipping department's contact was left vague."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the order, checked with shipping, and promised to escalate, doing nothing to actually get the coffee maker faster."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent promised shipping would contact Mary 'as soon as possible' with no timeframe, no contact method confirmation, and no fallback."
+        }
+      ]
+    },
+    {
+      "conversation_id": 58,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent's explanation contradicts itself: it charges a $20 fee while saying defective items carry no fee, never resolves whether this vacuum counts as defective, and gives no refund timeline or return deadline."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "Rachel sent the return label and the customer confirmed receiving it, so the main action was completed, but she never tried to resolve the fee issue (e.g. waiving it for a defective item) when she could have."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The only next step is to return the item and wait for a refund, with no timeframe for returning it or for the refund, no tracking or notification details, and no fallback."
+        }
+      ]
+    },
+    {
+      "conversation_id": 59,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent said the return is initiated, an email will follow, and refund takes 7-10 business days, but contradicted itself: the item was said to be 'unused' yet defective, and it first said the item 'meets policy' only after inspection while also promising a 'full refund' guaranteed; also the agent never explained when the email arrives or whether the 14-day exception is actually approved versus conditional on inspection."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent said it would initiate the return but never confirmed it was done or that the email was sent, and did not note the exception in the order; the customer still has to wait for instructions."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent gave a next step (email with instructions) and a refund timeframe of 7-10 business days, but no timeframe for the email, no way to track, and no fallback if the email or refund doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 60,
+      "overall": 1.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent only said the order was delayed for 'unforeseen circumstances', guessed at the cause ('could be a shortage or a delivery delay'), and gave no ETA and no concrete remedy, so Jane doesn't know where things really stand."
+        },
+        {
+          "criterion": "Action",
+          "score": 1,
+          "reason": "The agent did nothing on the call: no tracking lookup beyond stating a delay, no escalation, no cancellation or refund processed, and instead discouraged Jane's cancellation request and told her to wait."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent vaguely promised to 'follow up as soon as I have an update' with no timeframe, no stated channel for notification, and no fallback if no update arrives."
+        }
+      ]
+    },
+    {
+      "conversation_id": 61,
+      "overall": 4.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent gave the shipping options, prices, total cost ($315.98) and said the order was processed with 2-day shipping, but never stated the expected delivery date, and 2-day shipping from when (business days, processing time) is left for the customer to guess."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent checked the options, processed the order, and charged the card on the call, completing the main action, though no order number was given and nothing confirmed the order went through beyond the agent's statement."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent said a confirmation email with order details and tracking would arrive 'shortly', giving a notification method and loose timeframe, but offered no fallback if the email doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 62,
+      "overall": 4.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent confirmed the exchange offer exists for the LG 1.5 Ton AC, explained up to 30% off depending on condition and brand, laid out the process, and gave a 2-3 business day evaluation estimate, though the customer's complaint about missing website details was never addressed and the discount is only a range."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent supplied correct information about the offer and process; there was nothing further the agent could do on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The next steps were given with a timeframe (2-3 business days) and the team will contact the customer after the order is placed, and the customer will be informed of the discount, but there is no fallback if the team doesn't call or the timing slips."
+        }
+      ]
+    },
+    {
+      "conversation_id": 63,
+      "overall": 4.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent confirmed eligibility and gave a clear remedy (full refund via return, label emailed within 24 hours, refund 3-5 business days after receipt), but did not explain the cause or say whether wet, torn diapers need to be returned in any special way, and the refund method (original payment) wasn't stated."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent said they would initiate the return and checked policy, but the customer must still wait for the email and ship the package; the agent didn't confirm the return was actually created or that the label was generated on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave timeframes (email within 24 hours, refund 3-5 business days after receipt) and the email is the notification channel, but offered no fallback if the email doesn't arrive or the refund is delayed."
+        }
+      ]
+    },
+    {
+      "conversation_id": 64,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent explained the original fan is out of stock with a new shipment expected in two weeks and offered an alternative deliverable in three business days, but contradicted itself by saying it can't predict the shipment yet giving a two-week estimate, and said 'the same model' is available after calling it a 'similar model', leaving the customer unsure which product they are ordering."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up availability and told the customer to place the order themselves, when it could have placed the order for them on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent said the customer can place the order now with delivery in three business days, but gave no way to track it, no notification method, and no fallback if delivery is late or the order fails."
+        }
+      ]
+    },
+    {
+      "conversation_id": 65,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent said the order shipped on time but was 'delayed in transit' and offered a replacement within two business days, but gave no current location or new ETA for the original package, and did not say what happens to it if it arrives later."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent arranged the replacement on the call, but gave no confirmation that the order was placed, no order or reference number, and did not say whether the original shipment was stopped or flagged, so the main action is stated but not confirmed."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent gave a two-business-day timeframe for the replacement but did not say how Sarah would be notified or track it, and gave no fallback if it fails to arrive, only a generic invitation to reach out."
+        }
+      ]
+    },
+    {
+      "conversation_id": 66,
+      "overall": 3.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent confirmed the return was received, gave a refund timeline (3-5 business days) to the original payment method, and said courier charges would be credited in 24-48 hours; however, the agent said the item will still be inspected for damage, leaving unclear whether the refund depends on that, and the customer was never told the amount."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent looked up the order and the return tracking and recorded the refund choice, but only said they 'will process' the refund and courier reimbursement, so nothing was actually initiated or confirmed on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent gave timeframes for the refund (3-5 business days) and the courier credit (24-48 hours), but did not say how the customer would be notified or what to do if the refund or credit doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 67,
+      "overall": 4.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent explained that COD is unavailable for DSLR cameras due to high value, no exceptions, and offered alternatives (card, net banking, EMI) plus a walkthrough, though it did not clarify the status of the existing order number the customer gave or whether it would be kept."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information and a way to pay; the agent gave correct info and guided the process, though it could not do the purchase itself and the customer must complete it on the website."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "The customer was told to complete the purchase themselves and to contact support if issues arise, which gives a fallback, but nothing was pending on the agent's side and the answer was not wrong or contradictory."
+        }
+      ]
+    },
+    {
+      "conversation_id": 68,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent gave a status (in transit, arriving tomorrow evening) but the cause was vague ('unforeseen circumstances'), and the partial refund was offered with no amount or terms, and the agent's statement that they can't guarantee expedited delivery sits awkwardly with the promised arrival time."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the order and checked with shipping; it offered a partial refund but never processed it or tried any real expedite or alternative, so little was actually done."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The only next step is the vague 'we will do everything we can' with no timeframe, no notification method, and no fallback, apart from the delivery estimate of tomorrow evening that has no tracking or contingency info."
+        }
+      ]
+    },
+    {
+      "conversation_id": 69,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agents said the cooler can't ship to Downtown New York due to unspecified 'shipping regulations' (after first listing generic factors) and that no nearby store has stock, so status is clear but the cause is vague and no real remedy was provided."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only checked availability and transferred the call to the store locator, who looked up inventory; no fix was made and the customer was left to buy elsewhere."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The only next step offered was to check the online store periodically, with no timeframe, notification option, or fallback, and the customer declined it."
+        }
+      ]
+    },
+    {
+      "conversation_id": 70,
+      "overall": 1.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent said the latest model is out of stock and offered a $40 (20%) refund, but gave no restock date, no explanation of how the refund works as credit toward the new model versus a payment back, no timing, and no mention of whether the Smart Band must be returned, so John still has to guess important details."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only said 'I will process the refund right away' and never confirmed it was processed or gave a confirmation, and did not offer to put John on a waitlist or restock notification, so the main action was not clearly completed."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 1,
+          "reason": "The agent gave no timeframe for the refund, no notification method, no instructions for returning the band or using the refund toward the new model, and no fallback, so John does not know what happens after the call."
+        }
+      ]
+    },
+    {
+      "conversation_id": 71,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent confirmed the 10% instant cashback and the final price of $89.99, but never gave the offer's end date, the original price, or payment, shipping and order confirmation details, so the customer is left guessing about the offer window and what happens with the order."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent processed the purchase and applied the cashback on the call, but did not confirm the order went through (no order number, payment, or confirmation email mentioned), so the customer's remaining steps are unclear."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 1,
+          "reason": "After the purchase the agent gave no next steps: no order confirmation, delivery timeframe, tracking info, or what to do if there's a problem, only a generic invitation to call back."
+        }
+      ]
+    },
+    {
+      "conversation_id": 72,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent explained the recall cause, the return-for-full-refund remedy, and the label timing, but never said when the refund would be issued or how long it takes after receipt, which Jane would need to know."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent said a prepaid label 'will be sent' within 24 hours rather than generating or sending it during the chat, so the main action was not confirmed as done and the customer must wait for it."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a 24-hour timeframe, email delivery of the label, and a fallback (check spam, then contact to be resent), but gave no timeframe or notification for the refund after receipt."
+        }
+      ]
+    },
+    {
+      "conversation_id": 73,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent confirmed the attempt limit was exceeded but then gave a vague, self-contradicting cause (the code is incorrect, though the customer insisted it was right), and never explained the lockout or how long it lasts."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only located the account and looked at the error, then told the customer to clear the cache and try another browser, without resetting the verification code or lockout, which the agent admitted it could do."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The only next step was for the customer to contact support again if the problem persists, with no timeframe, no tracking, and no mention of the lockout or when it would clear."
+        }
+      ]
+    },
+    {
+      "conversation_id": 74,
+      "overall": 4.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 5,
+          "reason": "The agent gave complete, correct answers on delivery charge ($20 standard, +$10 expedited), delivery timing (3-5 business days vs. 2), and the total cost ($270), covering everything the customer asked."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent looked up and provided correct details on charges, timing and total; there was nothing else to do on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "The customer only asked questions and nothing is pending after the call, and the agent's answers were not wrong or contradictory."
+        }
+      ]
+    },
+    {
+      "conversation_id": 75,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent explained the denial was due to physical damage found by the service center, but the offered replacement was confusingly described as for manufacturing defects (contradictory with the damage finding), and no concrete remedy or cost clarity was given beyond a vague escalation."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent looked up the denial reason and logged an escalation to the senior team, but did not do anything further such as requesting evidence/photos, disputing the damage finding, or clarifying the replacement terms."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent gave a timeframe of 24-48 hours for the senior team to get back, but did not say how Mary would be contacted (phone/email), gave no reference number for tracking, and no fallback if she doesn't hear back."
+        }
+      ]
+    },
+    {
+      "conversation_id": 76,
+      "overall": 1.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent said it's typically the customer's responsibility and to contact BrownBox if still stuck, but never clearly answered brand vs. BrownBox responsibility and gave only a vague 'we can assist or connect you with the manufacturer' with no actual lens/body mounting guidance."
+        },
+        {
+          "criterion": "Action",
+          "score": 1,
+          "reason": "The agent offered to guide the customer through lens and body setup but then just told them to follow the manual themselves, doing no actual walkthrough or other work on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent told the customer to contact BrownBox again if still having trouble, but gave no timeframe, contact method, or tracking, though the fallback is loosely stated."
+        }
+      ]
+    },
+    {
+      "conversation_id": 77,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent gave the policy and an exchange remedy (new order charged in full, refund after return), but never said how to return the defective watch (label, address, deadline) and the 7-10 day timeline is vague about what it covers, so John must guess important details."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent said 'I will create a new order' but never confirmed it was placed, gave no order number, and did not send a return label or set up the return, leaving John to handle the return himself."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent gave a 7-10 business day timeframe after receipt, but did not say how John would be notified, how to track the return or refund, or what to do if it doesn't happen."
+        }
+      ]
+    },
+    {
+      "conversation_id": 78,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent gave the order status (confirmed, processing, ships within 24 hours), explained all the statuses, and gave the warranty length, though it left out warranty details such as coverage or how to claim."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, and the agent looked up the order and answered all questions correctly, so there was nothing more to do on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The order is expected to ship within 24 hours, but the agent did not say how Lisa would be notified (e.g., shipping email or tracking) or what to do if it doesn't ship."
+        }
+      ]
+    },
+    {
+      "conversation_id": 79,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent confirmed the delivery status, initiated the return, and promised a replacement in 3-5 business days with a $10 credit, but never said how the damaged watch gets back (label, drop-off, deadline) or whether the replacement ships before the return, so the customer must guess at those details."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent initiated the return, emailed instructions, processed the replacement order, and applied the $10 credit on the call, leaving only the physical step of returning the watch, though the agent did not confirm the replacement order details such as a confirmation number or tracking."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent gave a 3-5 business day timeframe for the replacement and mentioned the return instructions email, but did not say how the customer will be notified of shipment or tracking, or what to do if the replacement doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 80,
+      "overall": 4.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 5,
+          "reason": "The agent gave a correct status (shipped, in transit) with a 2-3 business day delivery window, which fully answered the customer's question, though no carrier or tracking info was offered."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed order status information, the agent looked it up and gave it correctly, and there was nothing more to do on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The only pending item is delivery within 2-3 business days, which has a timeframe, but the agent did not say how the customer would be notified or tracked it, or what to do if it doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 81,
+      "overall": 2.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent confirmed the 14-day window and the refund option, and gave a 3-5 business day estimate, but never explained how the geyser will be returned (pickup, shipping label, who pays) and left it unclear whether the refund starts after photos or after the item is received."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the order and policy and asked the customer to email photos, without initiating a return, creating a return label or RMA, or starting the refund on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent gave a 3-5 business day refund timeframe, but did not say how the customer would be notified or track it, had no fallback if it didn't happen, and left the return logistics for the geyser unaddressed."
+        }
+      ]
+    },
+    {
+      "conversation_id": 82,
+      "overall": 4.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 5,
+          "reason": "The agent clearly answered that an account is required and listed the exact information needed (name, email, password, optional payment info), fully answering the customer's questions."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed information, there was nothing further the agent could do on the call, and the information given was correct."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing is pending after the call, the agent's answer was not wrong or contradictory, and the customer knows to create the account and can reach out again if needed."
+        }
+      ]
+    },
+    {
+      "conversation_id": 83,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent confirmed the return is approved, a prepaid-style label will be emailed, a refund goes to the original payment method, and courier charges will be reimbursed, but the agent first said the customer must pay courier charges then reversed, and gave no refund timeframe, no clear explanation of whether a label means courier cost is even incurred, so the customer must guess when the refund arrives."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent looked up the policy and said they would email the return label, but did not confirm it was sent or initiate the return/RMA on the call, leaving the customer to wait for the email and ship the item."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent gave a 3-5 business day timeframe for courier reimbursement and said the label would be emailed, but gave no timeframe for the refund, no tracking or notification method, and no fallback if the email or refund does not arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 84,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent resent the codes and the customer received them, but gave no cause for the initial failure and contradicted herself by saying the system was fine while the codes never arrived, and offered only a vague promise that it won't happen again."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent resent the codes on the call and the customer confirmed receipt, so the main action was done and confirmed, though the customer still has to enter the codes and finish the order."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "Nothing is pending apart from the customer entering the codes, but the agent's answer included a contradiction (system fine vs. codes not received) and an empty promise that the issue won't recur, with no concrete follow-up or fallback if codes fail again."
+        }
+      ]
+    },
+    {
+      "conversation_id": 85,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent explained the cause (address issue) and the remedy (address updated, new delivery within two business days, tracking updated), but the customer's confusing opening ('received a BP monitor' yet not delivered) was never clarified, and the specialist never confirmed the new address read back or what the address problem actually was."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The specialist updated the address, initiated a new delivery attempt, and updated the tracking information on the call, but never confirmed the tracking actually worked or showed the customer the new status."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "A timeframe of two business days was given for delivery, but there was no mention of how the customer would be notified (email/SMS/tracking link) and no fallback if delivery fails again."
+        }
+      ]
+    },
+    {
+      "conversation_id": 86,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent gave the correct status (processing), explained what it means, and defined all the statuses the customer asked about, but gave no estimate of when the order would ship even though the customer ordered a few days ago."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The customer only needed status information, which the agent looked up and gave correctly, so there was nothing further the agent could do on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent said an email with tracking details will arrive once the order ships, which tells the customer how they will be notified, but gave no timeframe for shipping and no fallback if the email doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 87,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent explained that the refund goes by bank transfer only, courier charges will be reimbursed, and a pickup is arranged, but never gave a pickup date or window or a refund timeline, and the customer said they would give bank details yet the agent never collected them."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent initiated the return and arranged the pickup during the call, but did not collect the bank account number and IFSC code it had requested, which left a step needed for the refund unfinished."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent said a confirmation email would arrive 'shortly' and the refund would start after the item is received, but gave no pickup date, no refund timeframe, no way to provide the bank details, and no fallback if the pickup doesn't happen."
+        }
+      ]
+    },
+    {
+      "conversation_id": 88,
+      "overall": 2.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent said no faster delivery is available and offered only a cancel/refund, but never gave the order's current status or expected delivery date, and the escalation had no stated purpose or outcome, so Emily still doesn't know when it will arrive or what the remedy is."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only checked availability and logged an escalation; she did not look for alternatives such as a different shipping method, local pickup, or a partner retailer for an urgent medical need."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a 24-hour timeframe for senior team contact by phone or email (contact details were collected), but offered no fallback if no one calls, and the 24-hour wait may exceed the urgency of the need."
+        }
+      ]
+    },
+    {
+      "conversation_id": 89,
+      "overall": 1.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent said only that the order is 'in transit' with no delivery date, no cause for the delay, and no concrete remedy beyond a goodwill discount, so the customer still doesn't know when it will arrive."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the status and offered a 10% discount; no escalation, carrier contact, or expedite was done, and the 'make sure it's delivered' promise was empty reassurance."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 1,
+          "reason": "The agent gave no timeframe, no notification method, and no fallback; the customer was only told 'we'll make sure' it's delivered as soon as possible."
+        }
+      ]
+    },
+    {
+      "conversation_id": 90,
+      "overall": 4.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent confirmed that no other colors or sizes exist, offered a return with refund, scheduled the pickup, and gave a 3-5 business day refund timeline, but never stated the actual pickup date/time back to the customer or the refund amount/method."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent checked inventory, scheduled the pickup on the call, and set up an email confirmation, so the customer has only the physical step of packing the backpack left, though the pickup was not confirmed with specifics."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The customer was told to expect a pickup confirmation email shortly and a refund within 3-5 business days of receipt with an email notification, but no fallback was given if the pickup does not happen or the refund is late."
+        }
+      ]
+    },
+    {
+      "conversation_id": 91,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent clearly said the return window has closed and that the warranty only covers manufacturing defects, but the diagnosis (wiring or motor) was a guess, the agent assumed external causes without evidence, and gave no warranty length, claim process, or documentation needed if the electrician finds a defect."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent only looked up the order and ran basic troubleshooting, then told the customer to hire an electrician themselves; no warranty claim, case, or note was opened on the call."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The only next step is that the customer hire an electrician and come back if a defect is found, with no timeframe, no tracking or notification, no case reference, and no explanation of what to provide."
+        }
+      ]
+    },
+    {
+      "conversation_id": 92,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent confirmed the package is delayed but gave only a vague cause ('unforeseen circumstances'), no delivery estimate, and no remedy beyond a generic escalation."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent checked with the shipping partner and logged an escalation, but did not send the tracking number during the call, offer a replacement or expedite, or do anything more."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent promised an email with a tracking number and said they would 'keep you updated', so there is a way to track, but there is no timeframe for the email, the update, or the delivery, and no fallback if the package doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 93,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent answered that the speaker has no TV wall mount, offered a compatible one at $25, and gave the new total of $175, but never said when it ships or whether it comes with the original order, and the odd mismatch of a TV wall mount for a speaker went unexplained."
+        },
+        {
+          "criterion": "Action",
+          "score": 5,
+          "reason": "The agent added the wall mount to the order on the call and stated the updated total, so the main action was completed with no steps left for the customer, though the agent did not explicitly confirm payment or shipment."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent gave no information on shipping timing, whether the mount ships with the speaker, or how the customer would get confirmation, and only offered a generic invitation to call back."
+        }
+      ]
+    },
+    {
+      "conversation_id": 94,
+      "overall": 5.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 5,
+          "reason": "The agent gave concrete step-by-step instructions for the faucet and stove knobs, and the customer confirmed both now work, so the customer leaves knowing the problem is solved and the toy is ready to gift."
+        },
+        {
+          "criterion": "Action",
+          "score": 5,
+          "reason": "The agent walked the customer through both fixes live and the customer confirmed on the call that the faucet and stove knobs stay in place, so the issue was resolved with no steps left."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 5,
+          "reason": "Nothing is pending after the call since the installation was completed and confirmed, and the agent's guidance was correct and not contradictory, with a general invitation to call again if needed."
+        }
+      ]
+    },
+    {
+      "conversation_id": 95,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent said the return shipping charge was a mistake on BrownBox's end and that a reimbursement would arrive in 5-7 business days, but never gave the amount or the refund method, and the 'error' cause is vague."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent investigated and created the reimbursement request during the call, so the main action is done, but the agent never confirmed that it was submitted or gave a reference number."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent gave a 5-7 business day timeframe but did not say how Mike will be notified or can track the refund, and gave no fallback if it doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 96,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 3,
+          "reason": "The agent explained that faster delivery isn't available and that an order was placed for store pickup, but never named the store or its address, gave the pickup timing, or explained why delivery to her area is limited, so Jane must guess where to go and when."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent checked local stores and placed the pickup order on the call, but gave no confirmation that it went through and no order number, so the main action is done but unconfirmed."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent said an email with pickup details and order number would arrive within 24 hours, which gives a timeframe and a notification method, but offered no fallback if the email doesn't arrive, and 24 hours is a long wait for someone running low on baby food."
+        }
+      ]
+    },
+    {
+      "conversation_id": 97,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent confirmed a warranty claim was created and explained what info to send and the 5-7 day replacement timeline, but gave no cause and did not say where the serial number is or whether a return of the faulty unit is required, leaving a small gap."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent created the warranty claim on the call, but the customer must still email the purchase date, serial number and description, which the agent could have partly collected during the call (the customer was already on the line with order number), and no confirmation that the email was sent."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 4,
+          "reason": "The agent gave a next step (reply to email) and a timeframe (5-7 business days after info received) and said an email would arrive, but gave no timeframe for the email itself and no fallback if the email or replacement doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 98,
+      "overall": 3.33,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent confirmed the order has not shipped, said it will be cancelled, and gave the processing time (24 hours) and refund time (3-5 business days), though 'refund will be initiated soon after' is slightly vague and the agent never said whether the cancellation was already done or still pending."
+        },
+        {
+          "criterion": "Action",
+          "score": 3,
+          "reason": "The agent said 'I can cancel your order for you right away' but then said the cancellation 'will be processed within 24 hours', so it is unclear whether it was actually completed on the call and no confirmation was given."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The agent gave timeframes (24 hours for cancellation, 3-5 business days for refund) but did not say how the customer would be notified (e.g., confirmation email) or what to do if the cancellation or refund does not happen."
+        }
+      ]
+    },
+    {
+      "conversation_id": 99,
+      "overall": 3.67,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 4,
+          "reason": "The agent gave the correct status (eligible) and a concrete remedy (replacement shipping in 3-5 business days, keep the damaged item), but never said whether the replacement is the same size or color, or confirmed the shipping address, so a minor gap remains."
+        },
+        {
+          "criterion": "Action",
+          "score": 4,
+          "reason": "The agent checked eligibility and Mary processed the replacement request on the call, but neither gave a confirmation or order number or verified that the replacement was created, so the customer has no proof it worked."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 3,
+          "reason": "The only next step is shipping within 3-5 business days; neither agent said how the customer will be notified (email or tracking) or what to do if the replacement doesn't arrive."
+        }
+      ]
+    },
+    {
+      "conversation_id": 100,
+      "overall": 2.0,
+      "scores": [
+        {
+          "criterion": "Specific",
+          "score": 2,
+          "reason": "The agent said no faster delivery is available for his location but never gave the current delivery date, the reason expedited shipping is unavailable, or what happens to the existing order if Mark buys elsewhere, so Mark must guess important details."
+        },
+        {
+          "criterion": "Action",
+          "score": 2,
+          "reason": "The agent looked up the order and said an email with partner store contacts was being sent, but did not check the order's ETA, try an upgrade or expedite, or look up nearby stores for Mark, leaving him to do the legwork himself."
+        },
+        {
+          "criterion": "Next Steps",
+          "score": 2,
+          "reason": "The agent mentioned an email with partner details but gave no timeframe for it, no guidance on what to do if it doesn't arrive, and no mention of the status of the original order or cancellation."
+        }
+      ]
+    }
+  ]
+}
